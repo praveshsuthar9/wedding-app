@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding Invitation</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<div class="card" id="card">
+  <div class="card-inner">
+    <div class="front">
+      <h1>💍 Wedding Invitation 💌</h1>
+      <p>Click below to open</p>
+      <button onclick="openCard()">Open Invitation</button>
+    </div>
+    <div class="inside">
+      <h2>Krishna ❤️ Pratiksha</h2>
+      <p>You are cordially invited to celebrate our wedding.</p>
+      <p><b>Date:</b> 23th November 2025<br>
+      <b>Venue:</b> Sai lawns 
+      Nagar- Manmad highway Yesgoan, kopargaon </p>
+      <button class="details-btn" onclick="showInfo()">More Info</button>
+    </div>
+    <marquee  scrollamount="10 ">
+       <img src="/assets/images/wedding-img.png" alt="">
+      </marquee>
+      
+
+  </div>
+</div>
+
+<div class="info-modal" id="infoModal">
+  <div class="info-content">
+    <h2>Reception Details 🎉</h2>
+    <p><b>Date:</b> 25th November 2025<br>
+    <p><b>Time:</b> 10:30 AM Onwards</p>
+
+    <p><b>Dress Code:</b> Traditional Attire</p>
+    <p>Join us for a night full of joy, music, and celebration!</p>
+    <button class="close-btn" onclick="closeInfo()">Close</button>
+  </div>
+</div>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
